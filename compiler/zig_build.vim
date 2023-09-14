@@ -22,6 +22,7 @@ else
 endif
 
 " TODO: anything to add to errorformat for zig build specifically?
+set efm=%f:%l:%c:\ %t%.%#:\ %m
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
